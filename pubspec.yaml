@@ -1,0 +1,60 @@
+name: crud
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore:
+  firebase_auth:
+  animated_text_kit: ^4.2.1
+
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+    - family: SourceSansProItalic
+      fonts:
+        - asset: fonts/SourceSansPro-Italic.ttf
+    - family: SourceSansProBoldItalic
+      fonts:
+        - asset: fonts/SourceSansPro-BoldItalic.ttf
+    - family: Catamaran
+      fonts:
+        - asset: fonts/Catamaran-Regular.ttf
+    - family: Spartan MB
+      fonts:
+        - asset: fonts/SpartanMB-Black.otf
